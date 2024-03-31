@@ -11,6 +11,7 @@ img {
     top: 0;
     left: 0;
     z-index: -1;
+    padding: 1rem;
 }
 body {
     display: flex;
@@ -18,6 +19,7 @@ body {
     align-items: center;
     background-image: url(../images/bg-image.svg);
     background-size:cover;
+    background-repeat: no-repeat;
     min-height: 100vh;
 }
 
@@ -84,12 +86,18 @@ form {
     align-self: flex-start;
     padding: 0.2rem;
 }
-.li input[type=text] {
+.li input[type=text], select {
     border: none;
     padding: 1rem;
     border-radius: 0.7rem;
     color: #111729;
     font-weight: bold;
+}
+.li select[name=size], select[name=subject] {
+    appearance: none;
+    background-image: url(../images/Expand_down.svg);
+    background-repeat: no-repeat;
+    background-position: 100%;
 }
 ::placeholder {
     color: #CDD5E0;
