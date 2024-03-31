@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: "Be Vietnam Pro", sans-serif;
 }
-img {
+.logo {
     position: absolute;
     top: 0;
     left: 0;
@@ -26,6 +26,7 @@ body {
 main {
     padding: 1rem;
     max-width: 100%;
+    margin-top: 2rem;
 }
 
 .form {
@@ -57,6 +58,7 @@ form {
     width: 100%;
     padding: 1rem;
 }
+
 .form-content {
     display: flex;
     width: 100%;
