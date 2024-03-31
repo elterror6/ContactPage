@@ -8,10 +8,9 @@
 }
 .logo {
     position: absolute;
-    top: 0;
+    top: 1%;
     left: 5%;
     z-index: -1;
-    padding: 1rem;
 }
 body {
     display: flex;
@@ -24,7 +23,6 @@ body {
 }
 
 main {
-    padding: 1rem;
     max-width: 100%;
     margin-top: -10vw;
 }
@@ -42,6 +40,7 @@ main {
     color: #F8FAFC;
     width: 75%;
     text-align: center;
+    margin-bottom: 10%;
 }
 
 .form-header h1 {
