@@ -1,0 +1,142 @@
+@import url("https://www.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/bg-image.svg);
+    background-size:cover;
+    min-height: 100vh;
+}
+
+main {
+    padding: 1rem;
+    max-width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 810px;
+    max-width: 100%;
+}
+
+.form-header {
+    color: #F8FAFC;
+    width: 75%;
+    text-align: center;
+}
+
+.form-header h1 {
+    font-size: 4rem;
+    padding: 0.5rem;
+}
+
+.form-header p {
+    font-size: 2rem;
+    padding: 1rem;
+}
+form {
+    width: 100%;
+    padding: 1rem;
+}
+.form-content {
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.4);
+    border: none;
+    border-radius: 0.7rem;
+    max-width: 810px;
+    text-align: center;
+}
+
+.li {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: calc(50% - 5px);
+}
+.textbox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 8px;
+}
+.li label {
+    font-size: 0.875rem;
+    color: #F8FAFC;
+    align-self: flex-start;
+    padding: 0.2rem;
+}
+.li input[type=text] {
+    border: none;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    color: #111729;
+    font-weight: bold;
+}
+::placeholder {
+    color: #CDD5E0;
+}
+.lta {
+    width: 100%;
+}
+
+.lta label {
+    font-size: 0.875rem;
+    color: #F8FAFC;
+    align-self: flex-start;
+    padding: 0.2rem;
+}
+.lta textarea {
+    border: none;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    height: 9rem;
+    color: #111729;
+    font-weight: bold;
+}
+
+button {
+    border: none;
+    background-color: #FFFF;
+    border-radius: 0.7rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #4036A9;
+    padding: 1rem;
+    margin: 0.4rem;
+    width: 98%;
+}
+@media (max-width: 648px) {
+    .li {
+        flex-direction: column;
+        display: flex;
+        width: calc(100% - 5px);
+    }
+    .lta textarea {
+        height: 12rem;
+    }
+    .form-header h1 {
+        font-size: 2rem;
+    }
+    .form-header p{
+        font-size: 1rem;
+    }
+}
