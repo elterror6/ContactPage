@@ -91,7 +91,7 @@ form {
 }
 .li input[type=text], select {
     border: none;
-
+    padding: 0.857rem;
     border-radius: 0.7rem;
     color: #111729;
     font-weight: bold;
