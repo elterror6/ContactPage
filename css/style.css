@@ -8,8 +8,8 @@
 }
 .logo {
     position: absolute;
-    top: 2%;
-    left: 5%;
+    top: 1.875%;
+    left: 4.875%;
     width: 100%;
 }
 body {
@@ -24,7 +24,7 @@ body {
 
 main {
     max-width: 100%;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 .form {
