@@ -23,7 +23,9 @@ body {
 }
 
 main {
+    position: absolute;
     max-width: 100%;
+    top: 8%;
 }
 
 .form {
