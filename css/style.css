@@ -14,7 +14,7 @@
 }
 body {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-image: url(../images/bg-image.svg);
     background-size:cover;
